@@ -1,0 +1,23 @@
+GET  http://localhost:3000/subscribers
+###
+GET  http://localhost:3000/subscribers/5e6bf76d1a9efe06e0cab5f9
+###
+DELETE http://localhost:3000/subscribers/5e6c3d84613ccb094450a789
+###
+PATCH  http://localhost:3000/subscribers/5e6bf76d1a9efe06e0cab5f9
+Content-Type: application/json
+{"name": "New Name"}
+
+
+
+###
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+# {
+#   "name": "Joshua Pita",
+#   "subscriberToChannel": "hello!!!"
+# }
+
+
+
